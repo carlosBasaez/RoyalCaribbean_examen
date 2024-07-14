@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'LOVELOBLACK';
+    src: url('FONTS/Lovelo_Black.otf') format('woff2'),
+    url('FONTS/Mardoto-Regular.ttf') format('woff'); 
+  }
+  @font-face {
+    font-family: 'mardoto';
+    src: url('FONTS/Mardoto-Regular.ttf') format('woff'); 
+  }
+body {
+    background-image: url(IMG/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contenedor {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 0;
+    height: 100%;
+}
+
+.header-fondo {
+
+    background-color: #021155;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 1px;
+    background-color: #021155;
+    margin-top: 30px;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+li{ 
+    display: inline-block;
+    margin: 23 45px 1px;
+
+}
+a{                                     
+    font-size: 32px;
+    color:white;
+    margin-left: 50px;
+    padding: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    background-color: #faba12;
+    font-family: 'LOVELOBLACK', sans-serif;
+}
+
+.imagen-logo {
+    margin-top: 3px;
+    width: 30%;
+}
+
+.boton {
+    background-color: #faba12;
+
+}
+.nav-foto{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.nav-foto-final{
+    padding-top: 10px;
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+h1{
+    font-size: 60px;
+    width: 100%;
+    font-family: 'LOVELOBLACK', sans-serif;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #021155;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+h2{
+    color: white;
+    font-size: 15px;
+    justify-content: left;
+    margin-top: 0;
+    margin-left: 40px;
+    font-family: 'mardoto',  sans-serif;
+    font-weight: lighter;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+
+.contacto-texto{
+    margin-bottom: 40px;
+    padding-left: 20px;
+    font-size: 12px;
+    color:white;
+    margin-top: -18px;
+    font-family: 'mardoto',  sans-serif;
+    font-weight: lighter;
+    height: 10px;
+    text-align: left;
+}
+.texto-final{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.footer-fondo{
+    background-color: #021155;
+    width: 100%;
+    height: 260px;
+}
+
+.contacto{
+    display: inline-block;
+    margin: 45 100px 1px;
+}
+
+.btn-fondo{
+    background-color: transparent;
+}
